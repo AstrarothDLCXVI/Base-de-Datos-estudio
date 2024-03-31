@@ -1,0 +1,53 @@
+-- Crear la tabla de usuarios
+CREATE TABLE Usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(50),
+    apellido VARCHAR(50),
+    correo VARCHAR(100)
+);
+
+-- Insertar datos de ejemplo en la tabla de usuarios
+INSERT INTO Usuarios (nombre, apellido, correo) VALUES
+('Juan', 'Perez', 'juan@example.com'),
+('María', 'Gómez', 'maria@example.com'),
+('Pedro', 'López', 'pedro@example.com'),
+('Laura', 'Martínez', 'laura@example.com'),
+('Ana', 'García', 'ana@example.com');
+
+
+
+INSERT INTO Usuarios (nombre, apellido, correo) VALUES
+('paco', '', 'paco@example.com'),
+('germe', '', 'germe@example.com'),
+('rosa', 'melano', 'melano@example.com')
+
+-- Crear la tabla de información personal
+CREATE TABLE InformacionPersonal (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    dni VARCHAR(20),
+    fecha_nacimiento DATE,
+    localidad VARCHAR(100)
+);
+
+-- Insertar datos de ejemplo en la tabla de información personal
+INSERT INTO InformacionPersonal (dni, fecha_nacimiento, localidad) VALUES
+('12345678A', '1990-05-15', 'Madrid'),
+('23456789B', '1985-08-20', 'Barcelona'),
+('34567890C', '1993-11-10', 'Sevilla'),
+('45678901D', '1980-03-25', 'Valencia'),
+('56789012E', '1998-07-08', 'Bilbao');
+
+
+CREATE TABLE LenguajesProgramacion (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(50)
+);
+
+-- Insertar algunos lenguajes de programación
+INSERT INTO LenguajesProgramacion (nombre) VALUES
+('Java'),
+('Python'),
+('JavaScript'),
+('C#'),
+('C++'),
+('Ruby');
