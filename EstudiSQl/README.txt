@@ -17,4 +17,4 @@ Gracias y un saludo :D.
 IMPORTANTE; DONDE PONE "BaseDatos" ES LA BASE USADA EN LAS CARPETAS, CADA CARPETA TIENE UNA BASE DE DATOS DISTINTA
 
 Discord; astradlcxvi
-Github; https://github.com/
+Github; https://github.com/AstrarothDLCXVI
